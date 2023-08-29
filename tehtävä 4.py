@@ -8,7 +8,7 @@ elif Year % 4 != 0:
 elif Year % 100 == 0 and Year % 400 == 0:
     print("Vuosi " + str(Year) + " on karkausvuosi")
 elif Year % 100 != 0 and Year % 400 != 0:
-    print("Vuosi " + str(Year) + " on karkausvuosi")
+    print("Vuosi " + str(Year) + " ei ole karkausvuosi")
 
 
 
